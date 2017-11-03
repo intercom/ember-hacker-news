@@ -1,0 +1,39 @@
+nav {
+  margin-bottom: 20px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffa959;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+    background-color: #f99436;
+}
+
+body {
+  background-color: #f7ddc5
+}
+
+.comment {
+  padding-left: 50px;
+}
+
+.hide-button {
+  cursor: pointer;
+}
