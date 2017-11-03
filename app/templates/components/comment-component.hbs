@@ -1,0 +1,7 @@
+<div class="comment">
+  <em>{{comment.user}} {{comment.timeAgo}}</em>
+  <p>{{{comment.content}}}</p>
+  {{#each comment.comments as |childComment|}}
+    {{comment-component comment=childComment}}
+  {{/each}}
+</div>

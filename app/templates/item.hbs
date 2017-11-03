@@ -1,1 +1,4 @@
-{{outlet}}
+<h2>{{model.title}}</h2>
+{{#each model.comments as |comment|}}
+  {{comment-component comment=comment}}
+{{/each}}
