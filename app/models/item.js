@@ -14,5 +14,6 @@ export default DS.Model.extend({
       return `https://news.ycombinator.com/item?id=${this.get('id')}`
     }
     return this.get('url');
-  })
+  }),
+  comments: DS.hasMany('comment', { async: true }),
 });
