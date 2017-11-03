@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('frontpage');
+  this.route('new');
+  this.route('jobs');
+  this.route('ask');
+  this.route('active');
 });
 
 export default Router;
