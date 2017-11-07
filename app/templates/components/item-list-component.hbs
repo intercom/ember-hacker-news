@@ -1,7 +1,7 @@
-{{#each filteredItems as |item|}}
+{{#each items as |item|}}
   {{item-component
     item=item
-    markAsRead=(action "markAsRead" item.id)
+    markAsRead=(action markAsRead item)
   }}
   <hr>
 {{/each}}
