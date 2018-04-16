@@ -6,6 +6,7 @@ export default DS.Model.extend({
   points: DS.attr('number'),
   time: DS.attr('unix-date'),
   timeAgo: DS.attr('string'),
+  user: DS.attr('string'),
   url: DS.attr('string'),
   domain: DS.attr('string'),
   isInternalLink: computed.empty('domain'),
