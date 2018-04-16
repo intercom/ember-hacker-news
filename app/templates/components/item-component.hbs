@@ -1,9 +1,9 @@
 <div>
   <a href="{{item.externalUrl}}">{{item.title}}</a>
   <div>
-    <span>{{item.points}} points by {{item.user}} {{item.timeAgo}} </span>
-    <span {{action markAsRead}} class='hide-button test__item-delete-button'>
-      {{fa-icon "eye-slash"}}
+    <span>{{item.points}} points by {{item.user}} {{item.timeAgo}}</span>
+    <span {{action markAsRead}} class="hide-button">
+      {{fa-icon 'eye-slash'}}
     </span>
   </div>
   {{#link-to 'item' item.id}} {{item.commentsCount}} Comments{{/link-to}}
