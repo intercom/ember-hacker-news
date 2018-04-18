@@ -37,7 +37,6 @@
     "ember-load-initializers": "^1.0.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-resolver": "^4.0.0",
-    "ember-sinon": "^2.1.0",
     "ember-source": "~3.1.0",
     "ember-test-selectors": "0.3.9",
     "ember-welcome-page": "^3.0.0",
