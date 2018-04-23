@@ -9,7 +9,7 @@ module('Integration | Component | item-component', function(hooks) {
 
   const TEMPLATE = hbs`{{item-component
     item=item
-    markAsRead=(action markAsRead item)
+    markAsRead=(action markAsRead)
   }}`;
 
   let createItem = function(owner, data) {
