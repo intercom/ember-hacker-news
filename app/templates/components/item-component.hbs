@@ -1,8 +1,8 @@
 <div>
-  <a href="{{item.externalUrl}}">{{item.title}}</a>
+  <a href="{{item.externalUrl}}" data-test-item-title>{{item.title}}</a>
   <div>
     <span>{{item.points}} points by {{item.user}} {{item.timeAgo}}</span>
-    <span {{action markAsRead}} class="hide-button">
+    <span {{action markAsRead}} class="hide-button" data-test-mark-as-read>
       {{fa-icon 'eye-slash'}}
     </span>
   </div>
